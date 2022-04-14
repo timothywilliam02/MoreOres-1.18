@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "moreores:diamond_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

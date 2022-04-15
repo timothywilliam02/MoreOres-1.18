@@ -11,10 +11,9 @@ import net.minecraft.util.Identifier;
 import net.sourceshark.moreores.MoreOres;
 import net.minecraft.util.registry.Registry;
 import net.sourceshark.moreores.item.ModItemGroup;
-import net.sourceshark.moreores.item.ModItems;
 
 public class ModBlocks {
-
+    // Ender Fragment Ore
     public static final Block  ENDER_FRAGMENT_ORE = registerBlock("ender_fragment_ore",
         new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), (ModItemGroup.MOREORES));
 

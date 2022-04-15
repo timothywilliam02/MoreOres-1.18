@@ -7,9 +7,11 @@ import net.sourceshark.moreores.MoreOres;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
+    // Ender Fragment
     public static final Item ENDER_FRAGMENT = registerItem("ender_fragment",
         new Item(new FabricItemSettings().group(ModItemGroup.MOREORES)));
 
+    // Diamond Dust
     public static final Item DIAMOND_DUST = registerItem("diamond_dust",
             new Item(new FabricItemSettings().group(ModItemGroup.MOREORES)));
 
